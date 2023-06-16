@@ -14,11 +14,13 @@ outPut.innerHTML = "JS Output = " + output;
 console.log(`half of 100 is ${100 / 2}`);
 
 function myFunction0() {
+    demo3.innerHTML = "";
     demo3.innerHTML = "I was hidden until click";
     demo4.innerHTML = "I was hidden until click too";
 }
 
 function myFunction1() {
+    demo3.style.display = '';
     demo3.style.display = 'none';
     demo4.style.display = 'none';
 }
@@ -40,7 +42,7 @@ console.log(x);
     // let z = hy + yh;
 }
 
-alert(z);
+// alert(z);
 
 const motoCars = ["Segun", "Volvo", "Mercedes"];
 motoCars[0] = "Toyota";
